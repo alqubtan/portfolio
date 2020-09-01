@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <a href="#" class="logo">
+                <img src="img/hashtag.svg" alt="">
+                <div>alqubtan</div>
+            </a>
+            
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li class="nav-link">
+                        <a href="https://github.com/alqubtan/" target="_blank">github</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#about">about</a>
+                    </li>
+                    <li class="nav-link active-link">
+                        <a href="#social-media">contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+        </header>
+
+        <section class="overview">
+            <div class="welcome">
+                hey!, i’m super happy to see you in my website.
+            </div>
+
+            <div class="panel">
+                <ul class="panel-links">
+                    <li class="panel-link">
+                        <a href="#services">services</a>
+                    </li>
+                    <li class="panel-link">
+                        <a href="#about">my story</a>
+                    </li>
+                    <li class="panel-link">
+                        <a href="#social-media">social-media</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="whoami"> Who I’m I ?</h2>
+            <p class="about-me">
+                I’m Gazwan alqubtan from
+                Iraq - Baghdad. I’m 21 years old.
+                I am IT student and self thought full-stack
+                web developer. I am completly in love with what i’m doing,
+                and i look for more achivements!.
+            </p>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="what-u-get">What you will get ?</h2>
+            <div class="front-end">
+                <h2 class="front-text">Front-End</h2>
+                <span class="front-skills">
+                    Solid knowladge in front end
+                    technologies like HTML5 , CSS3 ,
+                    Javascript, and some other
+                    Frameworks like Reactjs 
+                </span>
+            </div>
+
+            <div class="back-end">
+                <h2 class="back-text">Back-End</h2>
+                <span class="back-skills">
+                    Solid knowladge in back end 
+
+                    development with node js and
+
+                    express js which will bring for 
+
+                    you a scalable & high 
+
+                    performance apps!
+
+                </span>
+            </div>
+            <div class="seo">
+                <h2 class="seo-text">SEO</h2>
+                <span class="seo-skills">
+                    Providing you with SEO
+                    to help you reaching more customers by suggesting your website
+                    when they look for relevant keywords  
+                    to your product.
+                  
+
+                </span>
+            </div>
+        </section>
+
+        <section class="social-media" id="social-media">
+            <span class="offline">
+                Not always Active, But It’s My pleasure to help you.
+            </span>
+
+            <ul class="accounts">
+                <li class="account">
+                    <a href="https://javascriptdev-q0g9630.slack.com/" target="_blank">
+                        <img src="img/slack.png" alt="">    
+                    </a>
+                </li>
+                <li class="account">
+                    <a href="https:/facebook.com/0en.vib" target="_blank">
+                        <img src="img/facebook.png" alt="">   
+                    </a>
+                </li>
+                <li class="account">
+                    <a href="https://instagram.com/0en" target="_blank">
+                        <img src="img/instagram.png" alt="">   
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <footer>
+            <span>There are no rights in this world || by @alqubtan</span>
+        </footer>
+    </div>
+
+    <script>
+        const menu = document.querySelector('.nav-links');
+        // handle menu
+        document.querySelector('.hamburger').addEventListener('click', function(e) {
+           menu.classList.toggle('active-menu');
+        })
+
+    </script>
+</body>
+</html>
