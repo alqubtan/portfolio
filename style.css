@@ -159,6 +159,7 @@ body {
 }
 
 .panel-link a {
+  text-transform: capitalize;
   text-decoration: none;
   color: inherit;
   font-size: 1.2rem;
@@ -182,15 +183,19 @@ body {
 }
 
 .about .whoami {
+  text-align: center;
+  width: 45%;
   font-size: 2rem;
 }
 
 .about .about-me {
   font-size: 1.4rem;
   padding: 3rem;
-  line-height: 2;
 }
-
+.what-we-offer {
+  text-align: center;
+  font-size: 1.8rem;
+}
 .services {
   display: flex;
   align-items: center;
@@ -200,25 +205,24 @@ body {
   padding: 3rem;
 }
 
-.what-u-get {
-  font-size: 1.8rem;
-}
-
 .web-dev,
 .mobile-dev,
 .uiux {
-  margin-top: 1rem;
-  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  margin: 1rem;
 }
 
 .web-skills,
 .mobile-skills,
 .uiux-skills {
-  width: 60%;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+
   min-width: 50%;
   text-align: center;
   padding: 2.5rem;
@@ -267,10 +271,14 @@ body {
 
 footer {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 14px;
+}
+
+footer span {
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
