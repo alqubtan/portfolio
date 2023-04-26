@@ -100,9 +100,10 @@ body {
     margin: 0;
 }
 .nav-link a {
+    text-transform: uppercase;
     text-decoration: none;
     color: inherit;
-    font-size: 1.4rem;
+    font-size: 1rem;
     border: 1px solid #24292e;
     padding: 0.2rem 1rem;
     transition: all 1s;
@@ -207,7 +208,7 @@ body {
 }
 
 
-.front-end, .back-end, .seo {
+.web-dev, .mobile-dev, .uiux {
     margin-top: 1rem;
     width: 60%;
     display: flex;
@@ -217,7 +218,7 @@ body {
 }
 
 
-.front-skills, .back-skills, .seo-skills {
+.web-skills, .mobile-skills, .uiux-skills {
     width: 60%;
     min-width: 50%;
     text-align: center;
@@ -229,9 +230,9 @@ body {
     min-width: 220px;
 }
 
-.front-skills:hover,
-.back-skills:hover,
-.seo-skills:hover {
+.web-skills:hover,
+.mobile-skills:hover,
+.uiux-skills:hover {
     background: #000;
 }
 
