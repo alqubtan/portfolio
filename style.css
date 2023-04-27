@@ -129,7 +129,7 @@ body {
 }
 
 .overview .welcome {
-  font-size: 2.2rem;
+  font-size: 2rem;
   padding: 1rem;
   text-align: center;
 }
@@ -185,7 +185,7 @@ body {
 .about .whoami {
   text-align: center;
   width: 45%;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .about .about-me {
@@ -214,6 +214,12 @@ body {
   justify-content: center;
 
   margin: 1rem;
+}
+
+.web-dev,
+.mobile-dev,
+.uiux h2 {
+  text-align: center;
 }
 
 .web-skills,
